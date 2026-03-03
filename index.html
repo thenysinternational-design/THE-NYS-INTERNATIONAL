@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>THE NYS INTERNATIONAL | Courier, Cargo & E-Commerce Services</title>
+  <meta name="description" content="THE NYS INTERNATIONAL – Courier, Cargo & E-Commerce Services. Track your shipment with Blue Dart, Delhivery, DTDC and more." />
+
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#111b32;
+      --text:#eaf0ff;
+      --muted:#b9c6e6;
+      --accent:#ffd27a;
+      --border:rgba(255,255,255,.12);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background: radial-gradient(1200px 600px at 20% 0%, #152753 0%, var(--bg) 55%) fixed;
+      color:var(--text);
+    }
+    .wrap{max-width:1100px;margin:0 auto;padding:18px}
+    .topbar{
+      display:flex;gap:14px;align-items:center;justify-content:space-between;
+      padding:12px 0;
+      flex-wrap:wrap;
+    }
+    .brand{display:flex;gap:12px;align-items:center;min-width:260px}
+    .brand .logoBox{
+      width:70px;height:70px;
+      border-radius:14px;
+      background:rgba(255,255,255,.07);
+      border:1px solid var(--border);
+      display:flex;align-items:center;justify-content:center;
+      padding:8px;
+    }
+    .brand img{
+      width:100%;height:100%;
+      object-fit:contain;
+      display:block;
+    }
+    .brand h1{font-size:18px;margin:0;letter-spacing:.5px}
+    .brand p{margin:2px 0 0 0;font-size:12px;color:var(--muted)}
+    .cta{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:10px 12px;border-radius:12px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.06);
+      color:var(--text);text-decoration:none;
+      font-weight:600;font-size:13px;
+    }
+    .btn:hover{transform:translateY(-1px)}
+    .btn.primary{
+      background:linear-gradient(135deg, rgba(255,210,122,.25), rgba(120,160,255,.18));
+      border-color:rgba(255,210,122,.35)
+    }
+
+    .hero{
+      margin-top:10px;
+      border-radius:18px;
+      overflow:hidden;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.04);
+    }
+    .hero img{width:100%;display:block;max-height:420px;object-fit:cover}
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:14px;
+      margin-top:14px;
+    }
+    @media (max-width: 900px){ .grid{grid-template-columns:1fr} }
+
+    .card{
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.05);
+      border-radius:18px;
+      padding:16px;
+    }
+    .card h2{margin:0 0 8px 0;font-size:18px}
+    .muted{color:var(--muted)}
+    .services{
+      display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:10px;
+    }
+    @media (max-width: 520px){ .services{grid-template-columns:1fr} }
+    .chip{
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:10px 12px;
+      background:rgba(255,255,255,.04);
+      font-weight:700;
+      font-size:13px;
+    }
+
+    /* Tracking form */
+    .trackbox{display:grid;gap:10px;margin-top:10px;}
+    label{font-size:12px;color:var(--muted);font-weight:800;letter-spacing:.2px}
+    input, select{
+      width:100%;
+      padding:12px 12px;
+      border-radius:14px;
+      border:1px solid var(--border);
+      background:rgba(10,16,30,.55);
+      color:var(--text);
+      outline:none;
+      font-size:14px;
+    }
+    input::placeholder{color:rgba(185,198,230,.65)}
+    .row{display:grid;grid-template-columns: 1fr 1fr;gap:10px;}
+    @media (max-width: 520px){ .row{grid-template-columns:1fr} }
+
+    .submit{
+      cursor:pointer;
+      padding:12px 14px;
+      border-radius:14px;
+      border:1px solid rgba(255,210,122,.45);
+      background:linear-gradient(135deg, rgba(255,210,122,.35), rgba(120,160,255,.18));
+      color:var(--text);
+      font-weight:900;
+      font-size:14px;
+    }
+
+    .note{
+      margin-top:10px;
+      font-size:12px;
+      color:rgba(185,198,230,.92);
+      line-height:1.45;
+      border-left:3px solid rgba(255,210,122,.45);
+      padding-left:10px;
+    }
+
+    footer{
+      margin:18px 0 6px 0;
+      color:rgba(185,198,230,.75);
+      font-size:12px;
+      text-align:center;
+    }
+    .highlight{color:var(--accent)}
+    .contactline{line-height:1.65}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logoBox">
+          <img src="logo.png" alt="THE NYS INTERNATIONAL Logo" />
+        </div>
+        <div>
+          <h1>THE NYS INTERNATIONAL</h1>
+          <p>Courier • Cargo • E-Commerce Services</p>
+        </div>
+      </div>
+
+      <div class="cta">
+        <a class="btn primary" href="https://wa.me/918377931958" target="_blank" rel="noopener">WhatsApp: 8377931958</a>
+        <a class="btn" href="mailto:thenysinternational@gmail.com">thenysinternational@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <img src="banner.jpg" alt="THE NYS INTERNATIONAL Banner" />
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Our Services</h2>
+        <div class="muted">Fast, secure and reliable logistics support for individuals & businesses.</div>
+
+        <div class="services">
+          <div class="chip">Domestic Courier</div>
+          <div class="chip">International Shipping</div>
+          <div class="chip">Cargo & Bulk Dispatch</div>
+          <div class="chip">E-Commerce Dispatch Support</div>
+        </div>
+
+        <div class="note">
+          <b class="highlight">Pickup booking:</b> WhatsApp us with pickup address + pincode + weight.
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Track Your Shipment</h2>
+        <div class="muted">Enter tracking number, select service, then click Search.</div>
+
+        <form class="trackbox" id="trackForm">
+          <div>
+            <label for="awb">Tracking / AWB Number</label>
+            <input id="awb" name="awb" type="text" placeholder="Enter your AWB / Tracking number" required />
+          </div>
+
+          <div class="row">
+            <div>
+              <label for="service">Select Courier Service (Required)</label>
+              <select id="service" name="service" required>
+                <option value="" selected disabled>Choose service</option>
+                <option value="bluedart">Blue Dart</option>
+                <option value="delhivery">Delhivery</option>
+                <option value="dtdc">DTDC</option>
+                <option value="indiapost">India Post (Speed Post)</option>
+                <option value="trackon">Trackon</option>
+              </select>
+            </div>
+
+            <div style="display:flex;align-items:end">
+              <button class="submit" type="submit" style="width:100%">Search</button>
+            </div>
+          </div>
+
+          <div class="note">
+            Note: Tracking status will open on the selected courier’s official tracking page.
+            Some couriers may ask OTP/CAPTCHA.
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <h2>Contact</h2>
+      <div class="contactline muted">
+        <b class="highlight">Email:</b> thenysinternational@gmail.com<br/>
+        <b class="highlight">WhatsApp:</b> 8377931958<br/>
+        <b class="highlight">Address:</b> C-610, DDA Janta Flat Pocket-11, Near Iqra Masjid, Jasola Vihar, New Delhi – 110025
+      </div>
+    </div>
+
+    <footer>© <span id="yr"></span> THE NYS INTERNATIONAL. All rights reserved.</footer>
+  </div>
+
+  <script>
+    document.getElementById("yr").textContent = new Date().getFullYear();
+
+    // Redirect to official tracking pages
+    // Only Blue Dart supports prefill via URL reliably; others open tracking page (customer can paste AWB).
+    const CARRIERS = {
+      bluedart: (awb) =>
+        `https://www.bluedart.com/web/guest/trackdartresult?trackFor=0&trackNo=${encodeURIComponent(awb)}`,
+      delhivery: (awb) =>
+        `https://www.delhivery.com/tracking`,
+      dtdc: (awb) =>
+        `https://www.dtdc.com/track-your-shipment/`,
+      indiapost: (awb) =>
+        `https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx`,
+      trackon: (awb) =>
+        `https://www.trackon.in/courier-tracking`
+    };
+
+    document.getElementById("trackForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const awb = document.getElementById("awb").value.trim();
+      const service = document.getElementById("service").value;
+
+      if (!awb || !service) return;
+
+      const url = CARRIERS[service] ? CARRIERS[service](awb) : null;
+      if (!url) return;
+
+      window.open(url, "_blank", "noopener");
+    });
+  </script>
+</body>
+</html>
